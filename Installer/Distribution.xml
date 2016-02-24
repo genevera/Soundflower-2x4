@@ -8,5 +8,5 @@
     <choice id="Soundflower" visible="true" title="Soundflower" description="Install the virtual audio device driver.">
         <pkg-ref id="Soundflower"/>
     </choice>
-    <pkg-ref id="Soundflower" version="2.0b2" onConclusion="none">Soundflower.pkg</pkg-ref>
+    <pkg-ref id="Soundflower" version="2.0" onConclusion="none">Soundflower.pkg</pkg-ref>
 </installer-gui-script>

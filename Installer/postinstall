@@ -1,7 +1,8 @@
 #!/bin/sh
 
+PRODUCT_NAME=Soundflower
 SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions
 
 {
-	/sbin/kextload ${SYSTEM_KEXT_INSTALL_PATH}/PhantomAudioDriver.kext
+	/sbin/kextload ${SYSTEM_KEXT_INSTALL_PATH}/${PRODUCT_NAME}.kext
 } 2>&1 | /usr/bin/logger -i -t $0

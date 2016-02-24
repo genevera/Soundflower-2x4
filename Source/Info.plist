@@ -22,7 +22,7 @@
 	<string>2</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>PhantomAudioDriver</key>
+		<key>Soundflower</key>
 		<dict>
 			<key>AudioEngines</key>
 			<array>

@@ -76,7 +76,7 @@
 				222ADFE71862531600C9BE56 /* Frameworks */,
 				222ADFE81862531600C9BE56 /* Headers */,
 				222ADFE91862531600C9BE56 /* Resources */,
-				222ADFEA1862531600C9BE56 /* Rez */,
+				B4F508581C7E5BF200EF5CBB /* Package */,
 			);
 			buildRules = (
 			);
@@ -128,15 +128,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXRezBuildPhase section */
-		222ADFEA1862531600C9BE56 /* Rez */ = {
-			isa = PBXRezBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		B4F508581C7E5BF200EF5CBB /* Package */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = Package;
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "BUILD_DIR=../Build\nSCRIPTS_PATH=../Installer\nPACKAGE_PATH=${BUILD_DIR}/${PRODUCT_NAME}.pkg\n\nif test ! -d ${BUILD_DIR}; then mkdir -p ${BUILD_DIR}; fi\npkgbuild --component ${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME} --scripts ${SCRIPTS_PATH} --install-location ${SYSTEM_KEXT_INSTALL_PATH} ${PACKAGE_PATH}";
 		};
-/* End PBXRezBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		222ADFE61862531600C9BE56 /* Sources */ = {
@@ -228,20 +235,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEPLOYMENT_LOCATION = YES;
-				DSTROOT = "$(SRCROOT)/../Build/InstallerRoot";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_GROUP = wheel;
-				INSTALL_OWNER = root;
-				INSTALL_PATH = /Library/Extensions;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
@@ -254,17 +255,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEPLOYMENT_LOCATION = YES;
-				DSTROOT = "$(SRCROOT)/../Build/InstallerRoot";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_GROUP = wheel;
-				INSTALL_OWNER = root;
-				INSTALL_PATH = /Library/Extensions;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
