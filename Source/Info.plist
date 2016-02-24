@@ -30,7 +30,7 @@
 					<key>BlockSize</key>
 					<integer>8192</integer>
 					<key>Description</key>
-					<string>Soundflower (2ch)</string>
+					<string>Soundflower 1</string>
 					<key>Formats</key>
 					<array>
 						<dict>
@@ -72,7 +72,7 @@
 					<key>BlockSize</key>
 					<integer>8192</integer>
 					<key>Description</key>
-					<string>Soundflower (64ch)</string>
+					<string>Soundflower 2</string>
 					<key>Formats</key>
 					<array>
 						<dict>
@@ -89,7 +89,91 @@
 							<key>IOAudioStreamIsMixable</key>
 							<integer>1</integer>
 							<key>IOAudioStreamNumChannels</key>
-							<integer>64</integer>
+							<integer>2</integer>
+							<key>IOAudioStreamNumericRepresentation</key>
+							<integer>1936289396</integer>
+							<key>IOAudioStreamSampleFormat</key>
+							<integer>1819304813</integer>
+						</dict>
+					</array>
+					<key>NumBlocks</key>
+					<integer>2</integer>
+					<key>NumStreams</key>
+					<integer>1</integer>
+					<key>SampleRates</key>
+					<array>
+						<integer>44100</integer>
+						<integer>48000</integer>
+						<integer>88200</integer>
+						<integer>96000</integer>
+						<integer>176400</integer>
+						<integer>192000</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>BlockSize</key>
+					<integer>8192</integer>
+					<key>Description</key>
+					<string>Soundflower 3</string>
+					<key>Formats</key>
+					<array>
+						<dict>
+							<key>IOAudioStreamAlignment</key>
+							<integer>1</integer>
+							<key>IOAudioStreamBitDepth</key>
+							<integer>32</integer>
+							<key>IOAudioStreamBitWidth</key>
+							<integer>32</integer>
+							<key>IOAudioStreamByteOrder</key>
+							<integer>0</integer>
+							<key>IOAudioStreamDriverTag</key>
+							<integer>0</integer>
+							<key>IOAudioStreamIsMixable</key>
+							<integer>1</integer>
+							<key>IOAudioStreamNumChannels</key>
+							<integer>2</integer>
+							<key>IOAudioStreamNumericRepresentation</key>
+							<integer>1936289396</integer>
+							<key>IOAudioStreamSampleFormat</key>
+							<integer>1819304813</integer>
+						</dict>
+					</array>
+					<key>NumBlocks</key>
+					<integer>2</integer>
+					<key>NumStreams</key>
+					<integer>1</integer>
+					<key>SampleRates</key>
+					<array>
+						<integer>44100</integer>
+						<integer>48000</integer>
+						<integer>88200</integer>
+						<integer>96000</integer>
+						<integer>176400</integer>
+						<integer>192000</integer>
+					</array>
+				</dict>
+				<dict>
+					<key>BlockSize</key>
+					<integer>8192</integer>
+					<key>Description</key>
+					<string>Soundflower 4</string>
+					<key>Formats</key>
+					<array>
+						<dict>
+							<key>IOAudioStreamAlignment</key>
+							<integer>1</integer>
+							<key>IOAudioStreamBitDepth</key>
+							<integer>32</integer>
+							<key>IOAudioStreamBitWidth</key>
+							<integer>32</integer>
+							<key>IOAudioStreamByteOrder</key>
+							<integer>0</integer>
+							<key>IOAudioStreamDriverTag</key>
+							<integer>0</integer>
+							<key>IOAudioStreamIsMixable</key>
+							<integer>1</integer>
+							<key>IOAudioStreamNumChannels</key>
+							<integer>2</integer>
 							<key>IOAudioStreamNumericRepresentation</key>
 							<integer>1936289396</integer>
 							<key>IOAudioStreamSampleFormat</key>
