@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<installer-gui-script minSpecVersion="1">
+    <pkg-ref id="Soundflower"/>
+    <options customize="always"/>
+    <choices-outline>
+        <line choice="Soundflower"/>
+    </choices-outline>
+    <choice id="Soundflower" visible="true" title="Soundflower" description="Install the virtual audio device driver.">
+        <pkg-ref id="Soundflower"/>
+    </choice>
+    <pkg-ref id="Soundflower" version="2.0b2" onConclusion="none">Soundflower.pkg</pkg-ref>
+</installer-gui-script>

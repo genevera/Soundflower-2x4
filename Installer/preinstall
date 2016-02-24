@@ -1,0 +1,7 @@
+#!/bin/sh
+
+SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions
+
+{
+	/sbin/kextunload ${SYSTEM_KEXT_INSTALL_PATH}/PhantomAudioDriver.kext
+} 2>&1 | /usr/bin/logger -i -t $0
