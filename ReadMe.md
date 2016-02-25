@@ -1,12 +1,12 @@
 
 # WHAT IS THIS?
 
-Max OS X virtual audio driver Soundflower with 4 2-channel devices.
+Max OS X virtual audio driver Soundflower with four 2-channel devices.
 
 No modification or improvement except that.
 
 
-# INSTALL FROM RELEASED SOUNDFLOWER PACKAGE
+# INSTALL FROM RELEASED PACKAGE
 
 1.	Go https://github.com/kawauso/Soundflower/releases/tag/2.0b2.0
 	and download DMG file.
@@ -16,12 +16,12 @@ No modification or improvement except that.
 3.	Open Installer.pkg.
 
 
-# UNINSTALL FROM RELEASED SOUNDFLOWER PACKAGE
+# UNINSTALL FROM RELEASED PACKAGE
 
 1.	Open Uninstaller.app.
 
 
-# INSTRUCTIONS TO BUILD AND INSTALL SOUNDFLOWER YOURSELF
+# INSTRUCTIONS TO BUILD AND INSTALL SOUNDFLOWER 2x4 YOURSELF
 
 1.	Open Soundflower-2x4/Source/Soundflower.xcodeproj.
 
