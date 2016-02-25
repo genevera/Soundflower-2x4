@@ -3,6 +3,8 @@
 
 Max OS X virtual audio driver Soundflower with **four 2-channel** devices.
 
+![screenshot2016-02-25](https://cloud.githubusercontent.com/assets/446522/13327430/269d8cc8-dc2d-11e5-8415-dfe3a91ed060.png)
+
 No modification or improvement except that.
 
 Oh, the Installer is totally rewritten to simplify the development.
@@ -13,7 +15,7 @@ Oh, the Installer is totally rewritten to simplify the development.
 1.	Go https://github.com/kawauso/Soundflower/releases/tag/2.0b2.0
 	and download DMG file.
 
-2.	Open DMG file.
+2.	Open the DMG file.
 
 3.	Open Installer.pkg.
 
