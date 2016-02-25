@@ -27,11 +27,13 @@ Oh, the Installer is totally rewritten to simplify the development.
 
 # INSTRUCTIONS TO BUILD AND INSTALL SOUNDFLOWER 2x4 YOURSELF
 
-1.	Open Soundflower-2x4/Source/Soundflower.xcodeproj.
+1.	Clone or download the source code.
 
-2.	Build Soundflower project on Xcode.
+2.	Open Soundflower-2x4/Source/Soundflower.xcodeproj.
 
-3.	Open Soundflower-2x4/Build/Soundflower.pkg.
+3.	Build Soundflower project on Xcode.
+
+4.	Open Soundflower-2x4/Build/Soundflower.pkg.
 
 
 # ORIGINAL INSTRUCTIONS TO BUILD SOUNDFLOWER YOURSELF
