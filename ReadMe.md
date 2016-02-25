@@ -1,28 +1,26 @@
 
-# JUST LOOKING FOR THE SOUNDFLOWER INSTALLER?
-https://github.com/mattingalls/Soundflower/releases/tag/2.0b2
-is the latest version
+# INSTALL FROM RELEASED SOUNDFLOWER PACKAGE
+
+1.	Go https://github.com/kawauso/Soundflower/releases/tag/2.0b2.0
+	and download DMG file.
+
+2.	Open DMG file.
+
+3.	Open Installer.pkg.
 
 
+# UNINSTALL FROM RELEASED SOUNDFLOWER PACKAGE
+
+1.	Open Uninstaller.app.
 
 
-# THE MOST RELIABLE WAY TO UNINSTALL
-From the Finder, **HIT** Shift-Cmd-G and **TYPE**:
+# INSTRUCTIONS TO BUILD AND INSTALL SOUNDFLOWER YOURSELF
 
-/Library/Extensions
+1.	Open Soundflower-2x4/Source/Soundflower.xcodeproj.
 
-Then inside that folder, look for a "Soundflower.kext" file. If there is one,
-**DRAG** it into the trash (you may be asked for the admin password)
+2.	Build Soundflower project on Xcode.
 
-**REPEAT**, typing in this folder path:
-
-/System/Library/Extensions
-
-**RESTART** your computer
-
-
-
-
+3.	Open Soundflower-2x4/Build/Soundflower.pkg.
 
 
 # ORIGINAL INSTRUCTIONS TO BUILD SOUNDFLOWER YOURSELF
