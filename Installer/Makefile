@@ -6,6 +6,7 @@ Installer.pkg::
 	productbuild --distribution Distribution.xml --package-path $(BUILD_DIR) $(BUILD_DIR)/$@
 
 Uninstaller.app::
+	rm -r $(BUILD_DIR)/$@
 	osacompile -o $(BUILD_DIR)/$@ Uninstaller.applescript
 
 clean::

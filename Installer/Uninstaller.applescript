@@ -1,4 +1,4 @@
-set kext to "/System/Library/Extensions/Soundflower.kext"
+set kext to "/Library/Extensions/Soundflower.kext"
 try
 	tell application "System Events"
 		if not exists file kext then

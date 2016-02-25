@@ -141,7 +141,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "BUILD_DIR=../Build\nSCRIPTS_PATH=../Installer\nPACKAGE_PATH=${BUILD_DIR}/${PRODUCT_NAME}.pkg\n\nif test ! -d ${BUILD_DIR}; then mkdir -p ${BUILD_DIR}; fi\npkgbuild --component ${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME} --scripts ${SCRIPTS_PATH} --install-location ${SYSTEM_KEXT_INSTALL_PATH} ${PACKAGE_PATH}";
+			shellScript = "BUILD_DIR=../Build\nSCRIPTS_PATH=../Installer\nPACKAGE_PATH=${BUILD_DIR}/${PRODUCT_NAME}.pkg\n\nif test ! -d ${BUILD_DIR}; then mkdir -p ${BUILD_DIR}; fi\npkgbuild --component ${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME} --scripts ${SCRIPTS_PATH} --install-location ${DEFAULT_KEXT_INSTALL_PATH} ${PACKAGE_PATH}";
 		};
 /* End PBXShellScriptBuildPhase section */
 

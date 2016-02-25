@@ -1,7 +1,7 @@
 #!/bin/sh
 
 PRODUCT_NAME=Soundflower
-SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions
+SYSTEM_KEXT_INSTALL_PATH=/Library/Extensions
 
 {
 	/sbin/kextload ${SYSTEM_KEXT_INSTALL_PATH}/${PRODUCT_NAME}.kext
