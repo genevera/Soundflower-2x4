@@ -17,23 +17,23 @@ Oh, the Installer is totally rewritten to simplify the development.
 
 2.	Open the DMG file.
 
-3.	Open Installer.pkg.
+3.	Open `Installer.pkg`.
 
 
 # UNINSTALL FROM RELEASED PACKAGE
 
-1.	Open Uninstaller.app.
+1.	Open `Uninstaller.app`.
 
 
 # INSTRUCTIONS TO BUILD AND INSTALL SOUNDFLOWER 2x4 YOURSELF
 
 1.	Clone or download the source code.
 
-2.	Open Soundflower-2x4/Source/Soundflower.xcodeproj.
+2.	Open `Soundflower-2x4/Source/Soundflower.xcodeproj`.
 
 3.	Build Soundflower project on Xcode.
 
-4.	Open Soundflower-2x4/Build/Soundflower.pkg.
+4.	Open `Soundflower-2x4/Build/Soundflower.pkg`.
 
 
 # ORIGINAL INSTRUCTIONS TO BUILD SOUNDFLOWER YOURSELF
