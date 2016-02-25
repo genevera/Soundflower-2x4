@@ -12,14 +12,14 @@ Oh, the Installer is totally rewritten to simplify the development.
 
 # INSTALL BY RELEASED PACKAGE
 
-0.	Uninstall original Soundflower if you have.
+1.	Uninstall original Soundflower if you have.
 
-1.	Go https://github.com/kawauso/Soundflower/releases/tag/2.0b2.0
+2.	Go https://github.com/kawauso/Soundflower/releases/tag/2.0b2.0
 	and download DMG file.
 
-2.	Open the DMG file.
+3.	Open the DMG file.
 
-3.	Open `Installer.pkg`.
+4.	Open `Installer.pkg`.
 
 
 # UNINSTALL BY RELEASED PACKAGE
