@@ -10,7 +10,7 @@ No modification or improvement except that.
 Oh, the Installer is totally rewritten to simplify the development.
 
 
-# INSTALL FROM RELEASED PACKAGE
+# INSTALL BY RELEASED PACKAGE
 
 1.	Go https://github.com/kawauso/Soundflower/releases/tag/2.0b2.0
 	and download DMG file.
@@ -20,7 +20,7 @@ Oh, the Installer is totally rewritten to simplify the development.
 3.	Open `Installer.pkg`.
 
 
-# UNINSTALL FROM RELEASED PACKAGE
+# UNINSTALL BY RELEASED PACKAGE
 
 1.	Open `Uninstaller.app`.
 
