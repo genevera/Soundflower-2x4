@@ -1,7 +1,7 @@
 
 # WHAT IS THIS?
 
-Max OS X virtual audio driver Soundflower with **four 2-channel** devices.
+Mac OS X virtual audio driver Soundflower with **four 2-channel** devices.
 
 ![screenshot2016-02-25](https://cloud.githubusercontent.com/assets/446522/13327430/269d8cc8-dc2d-11e5-8415-dfe3a91ed060.png)
 
