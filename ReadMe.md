@@ -1,4 +1,11 @@
 
+# WHAT IS THIS?
+
+Max OS X virtual audio driver Soundflower with 4 2-channel devices.
+
+No modification or improvement except that.
+
+
 # INSTALL FROM RELEASED SOUNDFLOWER PACKAGE
 
 1.	Go https://github.com/kawauso/Soundflower/releases/tag/2.0b2.0
