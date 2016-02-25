@@ -25,7 +25,7 @@ Oh, the Installer is totally rewritten to simplify the development.
 1.	Open `Uninstaller.app`.
 
 
-# INSTRUCTIONS TO BUILD AND INSTALL SOUNDFLOWER 2x4 YOURSELF
+# INSTRUCTIONS TO BUILD AND INSTALL SOUNDFLOWER-2x4 YOURSELF
 
 1.	Clone or download the source code.
 
