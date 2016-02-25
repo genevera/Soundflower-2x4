@@ -5,7 +5,7 @@ Max OS X virtual audio driver Soundflower with **four 2-channel** devices.
 
 No modification or improvement except that.
 
-Oh, Installer is totally rewritten to simplify the development.
+Oh, the Installer is totally rewritten to simplify the development.
 
 
 # INSTALL FROM RELEASED PACKAGE
