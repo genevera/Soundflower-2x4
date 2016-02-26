@@ -12,7 +12,7 @@ Oh, the Installer is totally rewritten to simplify the development.
 
 # INSTALL BY RELEASED PACKAGE
 
-1.	Uninstall original Soundflower if you have.
+1.	Uninstall the original Soundflower if you have.
 
 2.	Go https://github.com/kawauso/Soundflower/releases/tag/2.0b2.0
 	and download DMG file.
