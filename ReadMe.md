@@ -5,7 +5,7 @@ Mac OS X virtual audio driver Soundflower with **four 2-channel** devices.
 
 ![screenshot2016-02-25](https://cloud.githubusercontent.com/assets/446522/13327430/269d8cc8-dc2d-11e5-8415-dfe3a91ed060.png)
 
-No modification or improvement, except that related above.
+No modification or improvement from original, except that related above.
 
 Oh, the Installer is totally rewritten to simplify the development.
 
