@@ -1,5 +1,5 @@
 
-# WHAT IS THIS?
+# What is this?
 
 Mac OS X virtual audio driver Soundflower with **four 2-channel** devices.
 
@@ -10,7 +10,7 @@ No modification or improvement, except that related above.
 Oh, the Installer is totally rewritten to simplify the development.
 
 
-# INSTALL BY RELEASED PACKAGE
+# Install by released package
 
 1.	Uninstall the original Soundflower if you have.
 
@@ -22,12 +22,12 @@ Oh, the Installer is totally rewritten to simplify the development.
 4.	Open `Installer.pkg`.
 
 
-# UNINSTALL BY RELEASED PACKAGE
+# Uninstall by released package
 
 1.	Open `Uninstaller.app`.
 
 
-# INSTRUCTIONS TO BUILD AND INSTALL SOUNDFLOWER-2x4 YOURSELF
+# Instructions to build and install soundflower-2x4 yourself
 
 1.	Clone or download the source code.
 
