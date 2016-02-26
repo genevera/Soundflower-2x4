@@ -14,7 +14,7 @@ Oh, the Installer is totally rewritten to simplify the development.
 
 1.	Uninstall the original Soundflower if you have.
 
-2.	Go https://github.com/kawauso/Soundflower/releases
+2.	Go https://github.com/kawauso/Soundflower-2x4/releases
 	and download DMG file.
 
 3.	Open the DMG file.
