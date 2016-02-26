@@ -27,7 +27,7 @@ Oh, the Installer is totally rewritten to simplify the development.
 1.	Open `Uninstaller.app`.
 
 
-# Instructions to build and install soundflower-2x4 yourself
+# Instructions to build and install Soundflower-2x4 yourself
 
 1.	Clone or download the source code.
 
