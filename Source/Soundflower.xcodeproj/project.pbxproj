@@ -20,6 +20,7 @@
 		222AE0031862541400C9BE56 /* SoundflowerDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundflowerDevice.h; sourceTree = "<group>"; };
 		222AE0041862541400C9BE56 /* SoundflowerEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundflowerEngine.cpp; sourceTree = "<group>"; };
 		222AE0051862541400C9BE56 /* SoundflowerEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundflowerEngine.h; sourceTree = "<group>"; };
+		B4E9F3EC1C8D43A3004545B3 /* Soundflower.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Soundflower.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +37,7 @@
 		222ADFE11862531500C9BE56 = {
 			isa = PBXGroup;
 			children = (
+				B4E9F3EC1C8D43A3004545B3 /* Soundflower.xcconfig */,
 				222ADFFF1862541300C9BE56 /* Info.plist */,
 				222AE0021862541400C9BE56 /* SoundflowerDevice.cpp */,
 				222AE0031862541400C9BE56 /* SoundflowerDevice.h */,
@@ -77,6 +79,7 @@
 				222ADFE81862531600C9BE56 /* Headers */,
 				222ADFE91862531600C9BE56 /* Resources */,
 				B4F508581C7E5BF200EF5CBB /* Package */,
+				B4E9F3ED1C8D4945004545B3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -129,6 +132,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		B4E9F3ED1C8D4945004545B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/perl -i -alne 'if ($F[0] eq \"BUNDLE_VERSION\") {$F[2]++; $, = \" \"; print @F;}' ${PRODUCT_NAME}.xcconfig\n";
+		};
 		B4F508581C7E5BF200EF5CBB /* Package */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,6 +176,7 @@
 /* Begin XCBuildConfiguration section */
 		222ADFFA1862531600C9BE56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E9F3EC1C8D43A3004545B3 /* Soundflower.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -198,6 +215,7 @@
 		};
 		222ADFFB1862531600C9BE56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E9F3EC1C8D43A3004545B3 /* Soundflower.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
