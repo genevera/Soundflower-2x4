@@ -1,7 +1,1 @@
-//
-//  Soundflower.xcconfig
-//  Soundflower
-//
-//  Created by Sawayanagi Yosirou (澤栁 喜郎) on 3/7/16.
-//  Copyright © 2016 Cycling '74. All rights reserved.
-//
+CURRENT_PROJECT_VERSION = 7
