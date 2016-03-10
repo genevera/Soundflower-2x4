@@ -143,7 +143,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/bin/perl -i -alne 'if ($F[0] eq \"BUNDLE_VERSION\") {$F[2]++; $, = \" \"; print @F;}' ${PRODUCT_NAME}.xcconfig\n";
+			shellScript = "/usr/bin/perl -i -alne 'if ($F[0] eq \"CURRENT_PROJECT_VERSION\") {$F[2]++; $, = \" \"; print @F;}' ${PRODUCT_NAME}.xcconfig\n";
 		};
 		B4F508581C7E5BF200EF5CBB /* Package */ = {
 			isa = PBXShellScriptBuildPhase;
