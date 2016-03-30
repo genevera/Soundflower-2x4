@@ -1,11 +1,13 @@
 set kext to "/Library/Extensions/Soundflower.kext"
 try
 	tell application "System Events"
-		if not exists file kext then
+		if not (exists file kext) then
 			error kext & " not found."
 		end if
 	end tell
-	do shell script "/sbin/kextunload " & kext with administrator privileges
+	try
+		do shell script "/sbin/kextunload " & kext with administrator privileges
+	end try
 	do shell script "/bin/rm -rf " & kext with administrator privileges
 	display dialog "Successfully uninstalled."
 on error errMsg number errNum
